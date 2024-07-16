@@ -1,0 +1,25 @@
+.contenedor {
+    margin: 0;
+    padding: 0 35px;
+  }
+  
+  .contenedor_cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 435px;
+    gap: 20px;
+    overflow-x: auto;
+    margin: 0;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* Tus estilos para tablet aquí */
+  }
+  
+  @media (max-width: 768px) {
+  
+    .contenedor {
+      padding: 35px 15px;
+    }
+  }

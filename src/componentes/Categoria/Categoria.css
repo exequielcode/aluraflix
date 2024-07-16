@@ -1,0 +1,23 @@
+.categoria{
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.categoria h3{
+    width: 300px;
+    font-weight: 800;
+    font-family: var(--font);
+    text-align: center;
+    color: var(--blanco);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

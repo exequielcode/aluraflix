@@ -1,0 +1,27 @@
+.sin_videos{
+    background-color:#262626 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.sin_videos h2{
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+}
+
+.sin_videos img{
+    max-width: 450px;
+    min-width: 200px;
+}
+
+@media (max-width: 768px) {
+  
+    .sin_videos img {
+      max-width: 85%;
+    }
+  }
+  
